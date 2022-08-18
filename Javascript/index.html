@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+ 
+<p id="demo"></p>
+ 
+<script>
+fruits = ["Banana", "Orange", "Apple", "Mango"];
+text = "<ul>";
+for (i = 0; i < fruits.length; i++) {
+  text =text+ "<li>" + fruits[i] + "</li>";
+}
+text += "</ul>";
+ 
+document.getElementById("demo").innerHTML = text;
+</script>
+ 
+</body>
+</html>
